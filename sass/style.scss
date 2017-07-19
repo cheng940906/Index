@@ -969,13 +969,19 @@ input[type="text"] {
 			margin-bottom: 0;
 		}
 		&.fh5co-social-icons{
+		    margin-top: 1rem;
 			a{
+			    display: -webkit-inline-box;
+                background: #f03861;
+                border-radius: 50%;
+                color: #fff;
+                padding: 3px;
 				&:hover, &:focus{
 					text-decoration: none !important;
 				}
 			}
 			i{
-				font-size: 32px;
+				font-size: 25px;
 			}
 		}
 	}
